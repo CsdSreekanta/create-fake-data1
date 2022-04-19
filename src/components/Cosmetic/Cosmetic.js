@@ -14,6 +14,7 @@ const Cosmetic = (props) => {
             <h3>Buy this item for your body care:{name}</h3>
             <p>Selling price:${price}</p>
             <button onClick={addToCartWithParam}>Add to Cart</button>
+           
         </div>
     );
 };
